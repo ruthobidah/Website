@@ -1,2 +1,55 @@
-body {background-color: white;
+body {background-color: black;}
+body{text-align: center;
+    background-image: url("https://farm5.staticflickr.com/4666/40528094511_5ef6b0d91a_z.jpg");
+    background-repeat: no-repeat;
 }
+body{margin: 25px;}
+body{color: white;}
+h1 {background-color:tomato;
+color:black;
+border: 10px solid transparent;
+padding: 15px;
+border-image: url("https://farm5.staticflickr.com/4744/40528816601_ba3e386439_m.jpg") 30 stretch;
+box-decoration-break: clone;
+box-shadow: 5px 5px 2px maroon;
+}
+h2{background-color: mediumseagreen;
+color:black;
+}
+h3{background-color: orange;
+  outline-style: groove;
+  outline-color: dodgerblue;
+}
+div.phototags {
+  width: 25%;
+  background-color: blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3px;
+}
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+div.gallery {
+    margin: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 360px;
+    margin-bottom: 35px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.photo{border-radius: 8px;}
