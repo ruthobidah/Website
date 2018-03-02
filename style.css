@@ -12,6 +12,7 @@ padding: 15px;
 border-image: url("https://farm5.staticflickr.com/4744/40528816601_ba3e386439_m.jpg") 30 stretch;
 box-decoration-break: clone;
 box-shadow: 5px 5px 2px maroon;
+text-align: center;
 }
 h2{background-color: mediumseagreen;
 color:black;
@@ -53,3 +54,4 @@ div.desc {
 }
 
 .photo{border-radius: 8px;}
+.clearFloat{clear: both;}
