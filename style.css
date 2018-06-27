@@ -21,6 +21,16 @@ h3{background-color: orange;
   outline-style: groove;
   outline-color: dodgerblue;
 }
+
+#footer {
+  clear: both;
+  margin-top: 20px;
+  border-top: 1px mediumseagreen;
+  padding: 20px 0px;
+  font-size: 80%;
+  text-align: center;
+}
+
 div.phototags {
   width: 25%;
   background-color: blue;
